@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  color: #00ffdd;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.profession {
+  font-size: 1.5rem;
+  color: #00ffdd;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.hire-me-btn {
+  background-color: #00ffdd;
+  color: #121212;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hire-me-btn:hover {
+  background-color: #00d5b8;
+}
+
+.hero-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  
+
+}
+
+.mail{
+  text-decoration: none;
+}
