@@ -1,0 +1,64 @@
+.contact-me-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #0563dd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+  height: 500px;
+}
+
+.img1 {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+  
+
+.contactme{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.social-media-list {
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* color: #333; */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media-list li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social-icon {
+  text-decoration: none;
+  font-size: 24px;
+  color: #0a0303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon i {
+  margin-right: 8px;
+}
+
+.social-icon:hover {
+  color: #fff; /* LinkedIn blue */
+  transition: color 0.3s ease;
+}
+
+.social-icon:focus {
+  outline: none;
+}

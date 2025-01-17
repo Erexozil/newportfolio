@@ -78,3 +78,68 @@ body {
 .mail{
   text-decoration: none;
 }
+
+
+
+@media (max-width: 412px) {
+  .name {
+    font-size: 24px;
+    top: 0 0 0 0;
+  }
+
+  .profession {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .hire-me-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .hero-avatar .img {
+    max-width: 150px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .greeting {
+    font-size: 18px;
+  }
+
+  .name {
+    font-size: 28px;
+  }
+
+  .profession {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .hire-me-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .hero-avatar .img {
+    max-width: 200px;
+  }
+}

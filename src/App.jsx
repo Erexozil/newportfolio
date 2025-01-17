@@ -6,6 +6,8 @@ import Home from "./Component/Home";
 import About from "./Component/About";
 import ContactMe from "./Component/Contactme";
 
+
+
 const App = () => {
   return (
     <Router>
@@ -14,7 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="./contact" element={<ContactMe />} />
+        <Route path="/contact" element={<ContactMe />} />
       </Routes>
     </Router>
   );

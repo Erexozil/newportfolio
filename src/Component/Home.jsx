@@ -17,7 +17,16 @@ const Hero = () => {
         i can adivse your company about the web platform, performance,<br/>
         creative user interactions,and usable machine learning.
         </p>
-        <button className="hire-me-btn"> <a href="mailto:oluwadamilare.erex@gmail.com" className="mail"> Hire Me</a></button>
+        <button className="hire-me-btn"> 
+          <a href="mailto:oluwadamilare.erex@gmail.com" className="mail"> Hire Me </a>/
+          <a 
+    href="https://docs.google.com/document/d/15yamKjquNELBDVP5hrizJXZhgAPKgVRi/edit?usp=drive_link&ouid=105827951159669112522&rtpof=true&sd=true/export?format=pdf" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="cv-download"
+  >
+    Download CV
+  </a> </button>
       </div>
       <div className="hero-avatar">
         <img src={Img} alt="" className="img" />
