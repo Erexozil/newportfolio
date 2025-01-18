@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   
@@ -16,21 +17,24 @@ const Header = () => {
         ☰
       </div>
       <nav className={`nav ${menuOpen ? "show" : ""}`}>
-        <a href="#home" className="nav-link">
+       <NavLink to="/home"> <a href="#home" className="nav-link">
           Home
-        </a>
-        <a href="#about" className="nav-link">
+        </a> </NavLink>
+      <NavLink to="/about"> <a href="#about" className="nav-link">
           About
-        </a>
-        <a href="#services" className="nav-link">
+        </a> </NavLink>
+
+       <NavLink to="/service"><a href="#services" className="nav-link">
           Services
-        </a>
-        <a href="#portfolio" className="nav-link">
+        </a></NavLink> 
+
+        <NavLink to="/portfolio"> <a href="#portfolio" className="nav-link">
           Portfolio
-        </a>
-        <a href="#contact" className="nav-link">
+        </a> </NavLink>
+
+        <NavLink to="/contact"> <a href="#contact" className="nav-link">
           Contact Me
-        </a>
+        </a> </NavLink>
       </nav>
     </header>
   );

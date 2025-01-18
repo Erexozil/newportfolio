@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Img from "../Image/my-image-ozil.jpg";
 
-const Hero = () => {
+const Home = () => {
   return (
     <div className="hero-section">
       <div className="hero-content">
@@ -18,15 +18,17 @@ const Hero = () => {
         creative user interactions,and usable machine learning.
         </p>
         <button className="hire-me-btn"> 
-          <a href="mailto:oluwadamilare.erex@gmail.com" className="mail"> Hire Me </a>/
-          <a 
-    href="https://docs.google.com/document/d/15yamKjquNELBDVP5hrizJXZhgAPKgVRi/edit?usp=drive_link&ouid=105827951159669112522&rtpof=true&sd=true/export?format=pdf" 
+  <a href="mailto:oluwadamilare.erex@gmail.com" className="mail"> Hire Me </a> /
+  <a 
+    href="https://docs.google.com/document/d/15yamKjquNELBDVP5hrizJXZhgAPKgVRi/edit?usp=drive_link&ouid=105827951159669112522&rtpof=true&sd=true" 
     target="_blank" 
     rel="noopener noreferrer" 
     className="cv-download"
   >
     Download CV
-  </a> </button>
+  </a>
+</button>
+
       </div>
       <div className="hero-avatar">
         <img src={Img} alt="" className="img" />
@@ -35,7 +37,7 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
 
 
 
